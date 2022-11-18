@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+}
+nav{
+	text-align: right;
+	background-color: grey;}
+
+.menü{
+	padding: 20px;
+}	
+.menü a{
+	color: black;
+	text-decoration: none;
+}
+.menü .linkler{
+	margin-right: 30px;
+	margin-left: 30px;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+.menü #marka{
+	font-style: italic;
+	float: left;
+}
+.menü .linkler:hover{
+	color: white;
+}
+/*HAKKIMDA SAYFASI*/
+
+#hakkimizda{
+	
+	margin-top: 20px;
+	margin: auto;
+	width: 80%;
+}
+#laptop{
+	width: 150px;
+	float: left;
+}
